@@ -1,4 +1,4 @@
-Question 1
+#Question 1
 First we'll aggregate the total PM2.5 emission from all sources for each of the years 1999, 2002, 2005, and 2008.
 
 ETotals <- aggregate(Emissions ~ year,NEI, sum)
